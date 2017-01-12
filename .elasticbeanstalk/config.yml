@@ -1,0 +1,13 @@
+branch-defaults:
+  master:
+    environment: my-application-production
+    group_suffix: null
+global:
+  application_name: my-application
+  branch: null
+  default_ec2_keyname: MyApplicationKeyPair
+  default_platform: Node.js
+  default_region: eu-central-1
+  profile: eb-cli
+  repository: null
+  sc: git
